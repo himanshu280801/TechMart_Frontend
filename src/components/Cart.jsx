@@ -68,6 +68,7 @@ const Cart = () => {
               display: "flex",
               justifyContent: "space-around",
               alignItems: "center",
+              color:"white",
             }}
           >
             <div className="cart_img">

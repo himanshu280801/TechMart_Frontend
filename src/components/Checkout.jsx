@@ -11,6 +11,7 @@ const Checkout = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    
     let qty = 0;
     let price = 0;
     if (cart?.items) {
@@ -37,7 +38,7 @@ const Checkout = () => {
       const { orderId, amount: orderAmount } = orderRepons.data;
 
       var options = {
-        key: "rzp_test_gHH711O4gcSjCq", // Enter the Key ID generated from the Dashboard
+        key: "rzp_test_zxlFvdurue8FiK", // Enter the Key ID generated from the Dashboard
         amount: orderAmount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: "INR",
         name: "HIMANSHU",
@@ -68,12 +69,12 @@ const Checkout = () => {
           }
         },
         prefill: {
-          name: "HIMANSHU",
+          name: "Himanshu",
           email: "himofficial14@gmail.com",
           contact: "9000000000",
         },
         notes: {
-          address: "NIT PATNA",
+          address: "Mahendragarh",
         },
         theme: {
           color: "#3399cc",

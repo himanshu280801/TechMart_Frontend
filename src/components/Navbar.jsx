@@ -36,7 +36,7 @@ const Navbar = () => {
             className="left"
             style={{ textDecoration: "none", color: "white" }}
           >
-            <h3>विक्रेता.COM</h3>
+            <h3>TechMart</h3>
           </Link>
           <form className="search_bar" onSubmit={submitHandler}>
             <span className="material-symbols-outlined">search</span>{" "}
@@ -113,22 +113,22 @@ const Navbar = () => {
               className="items"
               onClick={() => filterbyCategory("headphones")}
             >
-              Hedphones
+              Headphones
             </div>
-            <div className="items" onClick={() => filterbyPrice(15999)}>
-              Clothes
+            <div className="items" onClick={() => filterbyPrice(999)}>
+              Rs. {'>='} 999
             </div>
-            <div className="items" onClick={() => filterbyPrice(25999)}>
-              Books
+            <div className="items" onClick={() => filterbyPrice(2999)}>
+              Rs. {'>='} 2999
+            </div>
+            <div className="items" onClick={() => filterbyPrice(9999)}>
+              Rs. {'>='} 9999
+            </div>
+            <div className="items" onClick={() => filterbyPrice(26999)}>
+              Rs. {'>='} 26999
             </div>
             <div className="items" onClick={() => filterbyPrice(49999)}>
-              Furniture
-            </div>
-            <div className="items" onClick={() => filterbyPrice(69999)}>
-              Toys
-            </div>
-            <div className="items" onClick={() => filterbyPrice(89999)}>
-              Others
+              Rs.  {'>='} 49999
             </div>
           </div>
         )}

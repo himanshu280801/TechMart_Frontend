@@ -5,9 +5,9 @@ import { ToastContainer, toast, Bounce } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const AppState = (props) => {
-  // const url = "http://localhost:1000/api";
+  //const url = "http://localhost:1000/api";
 
-  const url = "https://vikreta-mern-api.onrender.com/api";
+  const url = "https://techmart-backend.onrender.com/api";
 
 
   const [products, setProducts] = useState([]);
